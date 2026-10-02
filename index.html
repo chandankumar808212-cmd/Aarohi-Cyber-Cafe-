@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aarohi Cyber Cafe - Gidha PACS ke paas, Chanpatia Road. Online forms, government services, print, scan, banking assistance and more.">
+<title>Aarohi Cyber Cafe | Gidha</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Noto Sans Devanagari",Arial,sans-serif;background:#f6f7fb;color:#202033;line-height:1.6}
+a{text-decoration:none}
+.header{background:linear-gradient(135deg,#5b21b6,#7c3aed);color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px #0002}
+.nav{max-width:1150px;margin:auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;color:#fff}
+.logo-icon{width:44px;height:44px;border-radius:12px;background:#fff;color:#6d28d9;display:grid;place-items:center;font-size:23px;font-weight:900}
+.logo strong{display:block;font-size:18px}.logo small{opacity:.9}
+.navlinks{display:flex;gap:18px}.navlinks a{color:#fff;font-weight:700;font-size:14px}
+.menu{display:none;background:#ffffff22;border:1px solid #fff5;color:#fff;border-radius:9px;padding:7px 10px;font-size:20px}
+.hero{background:linear-gradient(135deg,#4c1d95,#7c3aed 60%,#a855f7);color:#fff}
+.hero-inner{max-width:1150px;margin:auto;padding:58px 18px 52px;display:grid;grid-template-columns:1.4fr .8fr;gap:30px;align-items:center}
+.badge{display:inline-block;background:#fff2;border:1px solid #fff4;padding:6px 12px;border-radius:99px;font-size:13px;font-weight:700;margin-bottom:15px}
+h1{font-size:clamp(32px,6vw,58px);line-height:1.08;margin-bottom:16px}
+.hero p{font-size:17px;max-width:680px;color:#f2eaff}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid transparent;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-light{background:#fff;color:#5b21b6}.btn-outline{border-color:#ffffff80;color:#fff;background:#ffffff12}
+.btn-green{background:#16a34a;color:#fff}.btn-dark{background:#24113f;color:#fff}
+.hero-card{background:#fff;color:#27213a;border-radius:20px;padding:24px;box-shadow:0 18px 45px #240b4a55}
+.hero-card h2{font-size:21px;margin-bottom:10px}.hero-card p{color:#666}
+.quick{display:grid;gap:10px;margin-top:16px}.quick a{padding:12px;border-radius:10px;background:#f3efff;color:#5420a8;font-weight:800}
+.section{max-width:1150px;margin:auto;padding:55px 18px}
+.section-head{text-align:center;margin-bottom:28px}.section-head h2{font-size:32px;color:#3b176f}.section-head p{color:#686878;margin-top:5px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{background:#fff;border:1px solid #e8e4ef;border-radius:16px;padding:22px;box-shadow:0 7px 22px #2714470b}
+.icon{font-size:28px;margin-bottom:8px}.card h3{font-size:18px;margin-bottom:5px}.card p{color:#6c6c79;font-size:14px}
+.price{font-size:25px;font-weight:900;color:#6d28d9;margin:9px 0}
+.price-card{text-align:center}
+.location{background:#fff}
+.contact-box{background:linear-gradient(135deg,#f0eaff,#fff);border:1px solid #e4d8ff;border-radius:20px;padding:30px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+.contact-box h2{color:#4c1d95;margin-bottom:6px}.contact-box p{color:#5f5f6e}
+footer{background:#21112f;color:#ddd;text-align:center;padding:30px 18px}
+footer strong{color:#fff}.footer-links{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin:12px 0}.footer-links a{color:#d8c5ff}
+.float{position:fixed;right:17px;bottom:17px;width:56px;height:56px;border-radius:50%;background:#16a34a;color:#fff;display:grid;place-items:center;font-size:25px;box-shadow:0 7px 22px #0004;z-index:30}
+@media(max-width:760px){
+ .navlinks{display:none}.menu{display:block}
+ .hero-inner{grid-template-columns:1fr;padding-top:40px}
+ .hero-card{margin-top:5px}
+ .grid{grid-template-columns:1fr}
+ .section{padding:42px 15px}
+ .contact-box{grid-template-columns:1fr}
+ .actions .btn{width:100%}
+ h1{font-size:39px}
+}
+@media(max-width:600px){#upload form > div:first-child{grid-template-columns:1fr !important}.upload-box{padding:18px !important}}\n
+.legal-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.legal-card{background:#fff;border:1px solid #e8e4ef;border-radius:16px;padding:22px;box-shadow:0 7px 22px #2714470b}
+.legal-card h3{color:#4c1d95;margin-bottom:8px}.legal-card p,.legal-card li{font-size:14px;color:#666;line-height:1.7}
+.legal-card ul{padding-left:20px;margin-top:8px}
+@media(max-width:760px){.legal-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <a class="logo" href="#">
+      <span class="logo-icon">A</span>
+      <span><strong>Aarohi Cyber Cafe</strong><small> Gidha • Chanpatia Road</small></span>
+    </a>
+    <div class="navlinks">
+      <a href="#services">सेवाएं</a>
+      <a href="#prices">कीमतें</a>
+      <a href="#upload">डॉक्यूमेंट अपलोड</a><a href="#contact">संपर्क</a>
+    </div>
+    <button class="menu" aria-label="Menu">☰</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="badge">⚡ तेज • भरोसेमंद • आसान ऑनलाइन सेवा</span>
+      <h1>आपकी डिजिटल सेवाएं,<br>अब आसान तरीके से।</h1>
+      <p>Aarohi Cyber Cafe में ऑनलाइन फॉर्म, सरकारी सेवाएं, प्रिंट, स्कैन, फोटो, बैंकिंग सहायता और अन्य डिजिटल सेवाएं उपलब्ध हैं।</p>
+      <div class="actions">
+        <a class="btn btn-green" href="https://wa.me/919631727479?text=Namaste%20Aarohi%20Cyber%20Cafe%2C%20mujhe%20online%20service%20ki%20jankari%20chahiye." target="_blank" rel="noopener">💬 WhatsApp पर संपर्क करें</a>
+        <a class="btn btn-light" href="tel:+919631727479">📞 अभी कॉल करें</a>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Aarohi+Cyber+Cafe%2C+Gidha+PACS%2C+Chanpatia+Road%2C+Bihar" target="_blank" rel="noopener">📍 रास्ता देखें</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h2>📌 हमारे यहां उपलब्ध</h2>
+      <p>जरूरी ऑनलाइन और डिजिटल काम के लिए संपर्क करें।</p>
+      <div class="quick">
+        <a href="#services">💻 सभी सेवाएं देखें →</a>
+        <a href="#prices">💰 कीमतें देखें →</a>
+        <a href="#contact">📱 संपर्क जानकारी →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-head">
+    <h2>हमारी सेवाएं</h2>
+    <p>एक ही जगह पर कई डिजिटल सुविधाएं</p>
+  </div>
+  <div class="grid">
+    <article class="card"><div class="icon">📄</div><h3>ऑनलाइन फॉर्म</h3><p>सरकारी नौकरी, परीक्षा, एडमिशन और अन्य ऑनलाइन आवेदन में सहायता।</p></article>
+    <article class="card"><div class="icon">🏛️</div><h3>सरकारी सेवाएं</h3><p>विभिन्न प्रमाण-पत्र, योजनाओं और सरकारी ऑनलाइन सेवाओं के लिए सहायता।</p></article>
+    <article class="card"><div class="icon">🪪</div><h3>डॉक्यूमेंट सेवा</h3><p>वोटर ID, आय, जाति, निवास और अन्य दस्तावेजों से संबंधित ऑनलाइन सहायता।</p></article>
+    <article class="card"><div class="icon">🖨️</div><h3>Print & Scan</h3><p>प्रिंटआउट, स्कैन, फोटो कॉपी और दस्तावेज तैयार करने की सुविधा।</p></article>
+    <article class="card"><div class="icon">🏦</div><h3>बैंकिंग सहायता</h3><p>डिजिटल बैंकिंग, पेमेंट और अन्य उपलब्ध वित्तीय सेवाओं में सहायता।</p></article>
+    <article class="card"><div class="icon">📸</div><h3>फोटो सेवा</h3><p>पासपोर्ट फोटो और डिजिटल फोटो से संबंधित सेवाएं।</p></article>
+  </div>
+</section>
+
+<section class="section" id="prices">
+  <div class="section-head">
+    <h2>कीमतें</h2>
+    <p>सेवा के अनुसार शुल्क अलग हो सकता है</p>
+  </div>
+  <div class="grid">
+    <article class="card price-card"><div class="icon">🖨️</div><h3>Printout</h3><div class="price">₹5+</div><p>प्रति पेज से</p></article>
+    <article class="card price-card"><div class="icon">📑</div><h3>Scan</h3><div class="price">₹10+</div><p>सेवा के अनुसार</p></article>
+    <article class="card price-card"><div class="icon">📸</div><h3>Passport Photo</h3><div class="price">₹30+</div><p>उपलब्धता के अनुसार</p></article>
+  </div>
+</section>
+
+
+<section class="section" id="privacy">
+  <div class="section-head">
+    <h2>🔒 Privacy & Disclaimer</h2>
+    <p>ग्राहकों की जानकारी और वेबसाइट उपयोग से संबंधित जरूरी जानकारी</p>
+  </div>
+
+  <div class="legal-grid">
+    <article class="legal-card">
+      <h3>🔒 Privacy Policy</h3>
+      <p>Aarohi Cyber Cafe ग्राहक द्वारा दी गई जानकारी का उपयोग केवल संबंधित ऑनलाइन/डिजिटल सेवा में सहायता के उद्देश्य से करता है।</p>
+      <ul>
+        <li>Customer documents को बिना आवश्यकता सार्वजनिक रूप से प्रदर्शित नहीं किया जाएगा।</li>
+        <li>Aadhaar, PAN, बैंक विवरण, OTP, PIN या पासवर्ड जैसी संवेदनशील जानकारी केवल आवश्यकता और सुरक्षित प्रक्रिया के अनुसार ही साझा करें।</li>
+        <li>कृपया OTP, ATM PIN, UPI PIN या password कभी भी WhatsApp पर न भेजें।</li>
+        <li>ग्राहक अपने documents की सही जानकारी और सुरक्षित प्रतियां रखने के लिए स्वयं जिम्मेदार है।</li>
+      </ul>
+    </article>
+
+    <article class="legal-card">
+      <h3>📌 Disclaimer</h3>
+      <p>Aarohi Cyber Cafe एक स्वतंत्र डिजिटल सेवा केंद्र है। यह वेबसाइट किसी सरकारी विभाग, बैंक, कंपनी या अन्य संस्था की आधिकारिक वेबसाइट होने का दावा नहीं करती।</p>
+      <ul>
+        <li>ऑनलाइन आवेदन/सेवा का अंतिम approval संबंधित विभाग या संस्था के नियमों पर निर्भर करता है।</li>
+        <li>वेबसाइट पर दी गई सेवा/कीमत की जानकारी समय के साथ बदल सकती है।</li>
+        <li>किसी भी सेवा से पहले आवश्यक दस्तावेज, शुल्क और नियमों की पुष्टि कर लें।</li>
+        <li>किसी सरकारी योजना या आवेदन की eligibility का अंतिम निर्णय संबंधित विभाग का होता है।</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="section location">
+  <div class="contact-box">
+    <div>
+      <h2>📍 Aarohi Cyber Cafe</h2>
+      <p><strong>पता:</strong> गिधा पैक्स के पास, चनपटिया रोड, गिधा, बिहार</p>
+      <p><strong>मोबाइल:</strong> 9631727479</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Aarohi+Cyber+Cafe%2C+Gidha+PACS%2C+Chanpatia+Road%2C+Bihar" target="_blank" rel="noopener">📍 Google Maps खोलें</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="upload">
+  <div class="section-head">
+    <h2>📤 Online Document Upload</h2>
+    <p>घर बैठे अपने दस्तावेज़ की जानकारी भेजें</p>
+  </div>
+  <div class="upload-box" style="max-width:760px;margin:auto;background:#fff;border:1px solid #e8e4ef;border-radius:20px;padding:24px;box-shadow:0 7px 22px #2714470b">
+    <form id="documentForm">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        <div>
+          <label style="font-weight:700;display:block;margin-bottom:6px">नाम</label>
+          <input id="customerName" required placeholder="अपना नाम लिखें" style="width:100%;padding:12px;border:1px solid #ddd6e8;border-radius:10px;font-size:15px">
+        </div>
+        <div>
+          <label style="font-weight:700;display:block;margin-bottom:6px">मोबाइल नंबर</label>
+          <input id="customerMobile" required type="tel" placeholder="10 अंकों का मोबाइल नंबर" pattern="[0-9]{10}" style="width:100%;padding:12px;border:1px solid #ddd6e8;border-radius:10px;font-size:15px">
+        </div>
+      </div>
+      <div style="margin-top:14px">
+        <label style="font-weight:700;display:block;margin-bottom:6px">कौन-सी सेवा चाहिए?</label>
+        <select id="customerService" required style="width:100%;padding:12px;border:1px solid #ddd6e8;border-radius:10px;font-size:15px;background:#fff">
+          <option value="">सेवा चुनें</option>
+          <option>आय प्रमाण पत्र</option>
+          <option>जाति प्रमाण पत्र</option>
+          <option>निवास प्रमाण पत्र</option>
+          <option>वोटर ID</option>
+          <option>राशन कार्ड</option>
+          <option>ऑनलाइन फॉर्म</option>
+          <option>अन्य सेवा</option>
+        </select>
+      </div>
+      <div style="margin-top:14px">
+        <label style="font-weight:700;display:block;margin-bottom:6px">दस्तावेज़ चुनें</label>
+        <input id="documents" type="file" multiple accept=".pdf,.jpg,.jpeg,.png" required style="width:100%;padding:12px;border:1px dashed #a78bfa;border-radius:10px;background:#faf8ff">
+        <small style="display:block;color:#777;margin-top:6px">PDF, JPG, JPEG, PNG • एक या अधिक फाइल चुन सकते हैं</small>
+      </div>
+      <div id="fileList" style="margin-top:10px;color:#5b21b6;font-size:14px"></div>
+      <div class="actions">
+        <button class="btn btn-green" type="submit">💬 WhatsApp पर Upload Request भेजें</button>
+        <a class="btn btn-outline" style="background:#5b21b6;color:#fff" href="tel:+919631727479">📞 मदद के लिए कॉल करें</a>
+      </div>
+      <p style="font-size:12px;color:#777;margin-top:12px">नोट: यह वेबसाइट फाइल को सीधे सर्वर पर सेव नहीं करती। WhatsApp बटन ग्राहक की जानकारी और चुनी गई फाइलों के नाम भेजता है। वास्तविक फाइल upload/storage के लिए secure server या Google Drive/Form जैसी व्यवस्था जोड़नी होगी।</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head">
+    <h2>अभी संपर्क करें</h2>
+    <p>ऑनलाइन सेवा की जानकारी के लिए सीधे संपर्क करें</p>
+  </div>
+  <div class="actions" style="justify-content:center">
+    <a class="btn btn-green" href="https://wa.me/919631727479?text=Namaste%20Aarohi%20Cyber%20Cafe%2C%20mujhe%20online%20service%20ki%20jankari%20chahiye." target="_blank" rel="noopener">💬 WhatsApp पर मैसेज करें</a>
+    <a class="btn btn-dark" href="tel:+919631727479">📞 9631727479 पर कॉल करें</a>
+    <a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=Aarohi+Cyber+Cafe%2C+Gidha+PACS%2C+Chanpatia+Road%2C+Bihar" target="_blank" rel="noopener">📍 Google Maps</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <strong>Aarohi Cyber Cafe</strong>
+  <div class="footer-links">
+    <a href="#services">सेवाएं</a><a href="#prices">कीमतें</a><a href="#upload">डॉक्यूमेंट अपलोड</a><a href="#contact">संपर्क</a>
+  </div>
+  <p>गिधा पैक्स के पास, चनपटिया रोड, गिधा • Mo. 9631727479</p>
+  <p style="margin-top:8px;font-size:12px;color:#aaa">यह वेबसाइट किसी सरकारी विभाग या बैंक की आधिकारिक वेबसाइट नहीं है।</p>
+  <p style="margin-top:8px;font-size:13px">© 2026 Aarohi Cyber Cafe. All Rights Reserved.</p>
+</footer>
+
+<a class="float" href="https://wa.me/919631727479?text=Namaste%20Aarohi%20Cyber%20Cafe%2C%20mujhe%20online%20service%20ki%20jankari%20chahiye." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+
+<script>
+document.getElementById('documents').addEventListener('change', function(){
+  const files=[...this.files];
+  document.getElementById('fileList').innerHTML = files.length
+    ? '📎 चुनी गई फाइलें: ' + files.map(f => f.name).join(', ')
+    : '';
+});
+document.getElementById('documentForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name=document.getElementById('customerName').value.trim();
+  const mobile=document.getElementById('customerMobile').value.trim();
+  const service=document.getElementById('customerService').value;
+  const files=[...document.getElementById('documents').files];
+  const names=files.map(f=>f.name).join(', ');
+  const msg=`नमस्ते Aarohi Cyber Cafe,%0A%0A📤 Online Document Upload Request%0A👤 नाम: ${encodeURIComponent(name)}%0A📱 मोबाइल: ${encodeURIComponent(mobile)}%0A🛠️ सेवा: ${encodeURIComponent(service)}%0A📎 फाइलें: ${encodeURIComponent(names)}%0A%0Aकृपया दस्तावेज़ प्राप्त करने की प्रक्रिया बताएं।`;
+  window.open('https://wa.me/919631727479?text='+msg,'_blank');
+});
+</script>
+
+</body>
+</html>
